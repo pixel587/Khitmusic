@@ -42,7 +42,7 @@ async def cute(_, message):
         user_name = message.reply_to_message.from_user.first_name
 
     mention = f"[{user_name}](tg://user?id={str(user_id)})"
-    mm = random.randint(1, 100
+    mm = random.randint(1, 100)
     CUTE = f"👀 {mention} {mm}% ᴄᴜᴛᴇ ʙᴀʙʏ🥀"
 
     await app.send_document(
