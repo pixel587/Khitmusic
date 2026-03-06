@@ -15,7 +15,8 @@ import os
 from PIL import Image
 from pyrogram import Client, raw
 from pyrogram.file_id import FileId
-# ------------------
+DevID = 8315544720
+#----------------------
 STICKER_DIMENSIONS = (512, 512)
 
 # -------------------
