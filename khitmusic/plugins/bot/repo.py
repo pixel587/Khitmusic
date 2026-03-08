@@ -6,7 +6,7 @@ from khitmusic import app
 from config import BOT_USERNAME
 
 # Caption Text
-start_txt = """<b>❍ ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ <u>Khit ʀᴇᴘᴏs</u></b>
+start_txt = """<b>❍ ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ <u>ⓀⒽⒾⓉ ʀᴇᴘᴏs</u></b>
 
 ⧽ <b>ᴇᴀsʏ ᴅᴇᴘʟᴏʏ</b> –ᴏɴᴇ ᴄʟɪᴄᴋ ʜᴇʀᴏᴋᴜ ᴅᴇᴘʟᴏʏᴍᴇɴᴛ   
 ⧽ <b>ᴜɴʟɪᴍɪᴛᴇᴅ ᴅʏɴᴏs</b> – ʀᴜɴ 24/7 ʟᴀɢɢ-ғʀᴇᴇ  
@@ -30,7 +30,7 @@ async def repo_handler(_, msg):
     ]
 
     await msg.reply_photo(
-        photo="https://graph.org/file/6603c3740378d3f7187da.jpg",
+        photo="https://files.catbox.moe/ffsk8y.jpg",
         caption=start_txt,
         reply_markup=InlineKeyboardMarkup(buttons)
     )
