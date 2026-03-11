@@ -13,32 +13,14 @@ from config import BANNED_USERS
 import random
 
 STARK_IMG = [
-"https://files.catbox.moe/k43ugw.jpg",
-"https://files.catbox.moe/9soc53.jpg",
-"https://files.catbox.moe/k8vvww.jpg",
-"https://files.catbox.moe/bag4i1.jpg",
-"https://files.catbox.moe/by685a.jpg",
-"https://files.catbox.moe/f7xoqs.jpg",
-"https://files.catbox.moe/5wqxf5.jpg",
-"https://files.catbox.moe/431fr0.jpg",
-"https://files.catbox.moe/ue0jdr.jpg",
-"https://files.catbox.moe/w3ul6m.jpg",
-"https://files.catbox.moe/tb5lbj.jpg",
-"https://files.catbox.moe/gntxjn.jpg",
-"https://files.catbox.moe/c6msne.jpg",
-"https://files.catbox.moe/pivnj5.jpg",
-"https://files.catbox.moe/zvl3zg.jpg",
-"https://files.catbox.moe/geb29n.jpg",
-"https://files.catbox.moe/59i2eq.jpg",
-"https://files.catbox.moe/98frng.jpg",
-"https://files.catbox.moe/cdsc73.jpg",
-"https://files.catbox.moe/fhyuem.jpg",
-"https://files.catbox.moe/4wdkm1.jpg",
-"https://files.catbox.moe/083llp.jpg",
-"https://files.catbox.moe/8h4rha.jpg",
-"https://files.catbox.moe/7bckxd.jpg",
-"https://graph.org/file/6603c3740378d3f7187da.jpg",
-"https://files.catbox.moe/3sbjl5.jpg"
+"https://files.catbox.moe/lsbtud.jpg",
+"https://files.catbox.moe/stqxy1.jpg",
+"https://files.catbox.moe/wz4ndo.jpg",
+"https://files.catbox.moe/02yas7.jpg",
+"https://files.catbox.moe/9qi4ot.jpg",
+"https://files.catbox.moe/e813zc.jpg",
+"https://files.catbox.moe/cdc5cz.jpg",
+"https://files.catbox.moe/83zj85.jpg"
 ]
 
 
